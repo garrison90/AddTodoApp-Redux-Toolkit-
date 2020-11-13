@@ -24,9 +24,5 @@ const todosSlice = createSlice({
   },
 })
 
-console.log(todosSlice)
-console.log(todosSlice.actions)
-console.log(todosSlice.reducer)
-
 export const { addTodo, toggleTodo } = todosSlice.actions
 export default todosSlice.reducer
